@@ -1,20 +1,24 @@
-# Robot Arm Control and Path Planning
+# Ruizhe Projects
 
-This project was developed as part of a robotics course assignment. It focuses on the design and implementation of robot arm control systems and robot path-planning algorithms using MATLAB and Simulink.
+Personal robotics projects and browser games by Ruizhe.
 
-The project includes flexible and rigid robot arm control, robot motion simulation, and several path-planning methods.
+## Robotics
 
-## Repository structure
+[Open robotics projects](robotics/)
 
-- `robot-arm-control/flexible-robot-arm/` — modeling and control of a flexible robot arm.
-- `robot-arm-control/rigid-robot-arm/` — modeling and control of a rigid robot arm.
-- `robot-motion-simulation/` — basic robot motion and sensor simulation.
-- `path-planning/` — robot path-planning algorithms, including RRT, Dijkstra, and Voronoi/visibility-based methods.
-- `docs/` — project reports and documentation.
-- `media/` — simulation and demonstration videos.
-- `misc/unclassified/` — auxiliary files not yet assigned to a specific module.
+MATLAB and Simulink coursework, organized into:
 
-## Tools
+- [Path planning](robotics/path-planning/): RRT, Dijkstra, Voronoi and visibility methods.
+- [Robot arm control](robotics/robot-arm-control/): flexible and rigid robot arm projects.
+- [Robot motion simulation](robotics/robot-motion-simulation/): AGV and sensor simulation.
+- [Reports](robotics/docs/), [videos](robotics/media/) and [auxiliary files](robotics/misc/).
 
-- MATLAB
-- Simulink
+See the [robotics README](robotics/README.md) for the original project overview.
+
+## Games
+
+[RUIZHE BEATS](games/ruizhe-beats/) — a four-lane rhythm game with Chinese and English instructions.
+
+Download `games/ruizhe-beats/index.html` and open it in a browser. On desktop, use D / F / J / K; on mobile, tap the bottom buttons. The game includes synthesized music, two difficulty levels and local high scores.
+
+Uploading the source does not automatically enable GitHub Pages hosting.
